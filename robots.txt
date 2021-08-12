@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://simonjulianl.github.io/sitemap.xml
