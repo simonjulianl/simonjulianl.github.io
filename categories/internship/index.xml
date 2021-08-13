@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Internship on Simon Website</title>
+    <link>https://simonjulianl.github.io/categories/internship/</link>
+    <description>Recent content in Internship on Simon Website</description>
+    <image>
+      <url>https://simonjulianl.github.io/papermod-cover.png</url>
+      <link>https://simonjulianl.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/categories/internship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Past Experiences&#39; Summaries</title>
+      <link>https://simonjulianl.github.io/post/old-internship-explanation/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonjulianl.github.io/post/old-internship-explanation/</guid>
+      <description>Since this website is first populated on 13/8/2021, there are many past experiences that I have failed to keep track of or I have failed to give the credits due. Hence, I would like to put the explanation about past projects and internships here! After this, each major project or internship worth highlighting would be explained on dedicated post!</description>
+    </item>
+    
+  </channel>
+</rss>

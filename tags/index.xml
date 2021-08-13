@@ -1,102 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on PaperMod</title>
+    <title>Tags on Simon Website</title>
     <link>https://simonjulianl.github.io/tags/</link>
-    <description>Recent content in Tags on PaperMod</description>
+    <description>Recent content in Tags on Simon Website</description>
     <image>
       <url>https://simonjulianl.github.io/papermod-cover.png</url>
       <link>https://simonjulianl.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PaperMod</title>
-      <link>https://simonjulianl.github.io/tags/papermod/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Experience</title>
+      <link>https://simonjulianl.github.io/tags/experience/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonjulianl.github.io/tags/papermod/</guid>
+      <guid>https://simonjulianl.github.io/tags/experience/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>first</title>
-      <link>https://simonjulianl.github.io/tags/first/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Internship</title>
+      <link>https://simonjulianl.github.io/tags/internship/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonjulianl.github.io/tags/first/</guid>
+      <guid>https://simonjulianl.github.io/tags/internship/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>https://simonjulianl.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>PINUS</title>
+      <link>https://simonjulianl.github.io/tags/pinus/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonjulianl.github.io/tags/css/</guid>
+      <guid>https://simonjulianl.github.io/tags/pinus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://simonjulianl.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Profile</title>
+      <link>https://simonjulianl.github.io/tags/profile/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonjulianl.github.io/tags/html/</guid>
+      <guid>https://simonjulianl.github.io/tags/profile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://simonjulianl.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Project</title>
+      <link>https://simonjulianl.github.io/tags/project/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonjulianl.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://simonjulianl.github.io/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://simonjulianl.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://simonjulianl.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>https://simonjulianl.github.io/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://simonjulianl.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/tags/emoji/</guid>
+      <guid>https://simonjulianl.github.io/tags/project/</guid>
       <description></description>
     </item>
     
