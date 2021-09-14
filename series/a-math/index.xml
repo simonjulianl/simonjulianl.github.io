@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A-Math on Simon Website</title>
+    <link>https://simonjulianl.github.io/series/a-math/</link>
+    <description>Recent content in A-Math on Simon Website</description>
+    <image>
+      <url>https://simonjulianl.github.io/papermod-cover.png</url>
+      <link>https://simonjulianl.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/series/a-math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singapore GCE O-Level A-Math Slides</title>
+      <link>https://simonjulianl.github.io/post/amathtuition/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonjulianl.github.io/post/amathtuition/</guid>
+      <description>Slides that I used for teaching Singapore GCE O-Level Additional Mathematics.</description>
+    </item>
+    
+  </channel>
+</rss>
