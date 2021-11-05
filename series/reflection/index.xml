@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Database on Simon Website</title>
-    <link>https://simonjulianl.github.io/tags/database/</link>
-    <description>Recent content in Database on Simon Website</description>
+    <title>Reflection on Simon Website</title>
+    <link>https://simonjulianl.github.io/series/reflection/</link>
+    <description>Recent content in Reflection on Simon Website</description>
     <image>
       <url>https://simonjulianl.github.io/</url>
       <link>https://simonjulianl.github.io/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/series/reflection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to Database and How It Changes My View on Database</title>
       <link>https://simonjulianl.github.io/post/introtopsql/</link>

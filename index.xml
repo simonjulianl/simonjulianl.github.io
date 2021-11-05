@@ -9,7 +9,16 @@
       <link>https://simonjulianl.github.io/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Database and How It Changes My View on Database</title>
+      <link>https://simonjulianl.github.io/post/introtopsql/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonjulianl.github.io/post/introtopsql/</guid>
+      <description>How Taking the Intro to Database Module Changes My View of Database</description>
+    </item>
+    
     <item>
       <title>CS1101S Mastery Check 2 (Env Model, Memoization, and Streams) Questions</title>
       <link>https://simonjulianl.github.io/post/cs1101smasterycheck2/</link>
@@ -82,15 +91,6 @@
       <description>list of experiences, internships and projects with further elaboration than the resume that I did and am doing! </description>
     </item>
     
-    
-    <item>
-      <title>Intro to Database and How It Changes My View on Database</title>
-      <link>https://simonjulianl.github.io/post/introtopsql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/post/introtopsql/</guid>
-      <description>How Taking the Intro to Database Module Changes My View of Database</description>
-    </item>
     
     
   </channel>
