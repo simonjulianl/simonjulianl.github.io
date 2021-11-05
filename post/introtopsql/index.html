@@ -66,8 +66,8 @@
   "keywords": [
     "Database", "NUS"
   ],
-  "articleBody": "Recently, I took a module called CS2102 in NUS, titled “Introduction to Database”. Previously, when I heard of databases, the first thing that comes to my mind is about spamming SELECT * FROM SOMEWHERE statements. Maybe, it is because previously I have made some applications using MongoDB (for the Raffles Hall Application) and MySQL (for my Orbital, CP2106, Independent Software Development Project). I knew that databases are very complex, there is caching, indexing, sharding, etc.\nHowever, after I did a project to create a database application purely using PL/pgSQL language, I realized learning SQL Procedural Language is already very complex, but they are very interesting. This PL/pgSQL is a turing complete language, meaning you can do any computation with it. Some basic syntax, for example:\n Declaring a new function and variables, yup just like in any procedural languages, you can create a procedure in PL/pgSQL  CREATE OR REPLACE FUNCTION sql_function(parameter INT) RETURNS BOOLEAN AS $$ DECLARE answer INT := 0; BEGIN RETURN QUERY SELECT TRUE ...; END; $$ LANGUAGE plpgsql; Not only that, you can even do recursive calls in PL/pgSQL !!, I found this very amazing. But ok, admittedly they are very slow and I haven’t learnt about optimization and how expensive joins operations are, but I find coding using a mix of declarative and procedural languages to be interesting! e.g. This is a function that I implemented to find list of African countries that I can reach by crossing land borders recursively from Malaysia!!  WITH RECURSIVE border_traverse AS ( SELECT DISTINCT b.country1_iso2, b.country2_iso2, 1 AS crossing_count FROM borders b WHERE country1_iso2 = 'MY' UNION ALL SELECT DISTINCT b.country1_iso2, b.country2_iso2, crossing_count + 1 FROM border_traverse bt, borders b WHERE bt.country2_iso2 = b.country1_iso2 AND bt.crossing_count  10 ) SELECT DISTINCT co.name AS country_name, MIN(bt.crossing_count) AS crossing_count FROM border_traverse bt, countries co WHERE bt.country2_iso2 = co.iso2 AND co.continent = 'Africa' GROUP BY co.name ORDER BY crossing_count ; There are more interesting features from PL/pgSQL but those two are the highlights of PL/pgSQL that I want to emphasize and I want to remember should I saw this post again.\nNot only that, I never thought of the mathematical framework to really analyze database. When you design a table, from what I learn from H2 Computing about normal forms, they are just merely descriptions, they are not really formal mathematical statements. Learning about Functional Dependency (FD) really teaches me a lot of things. There are a lot of formal specifications about database, and I found the tool created by one of my CS2102 prof, Adiyoga, to be very cool. It is about Simple FD tools to find closure, proving, etc. I really appreciate him for making this tool as this is a very useful tool to aid my learning during CS2102!.\nThe UI on how to use the tool!\nSo here to my first reflection about CS2102, and in general I am really grateful that I have taken this with my friends. I did enjoy my time here and I really learnt a lot also!\nHave a nice day everyone!\n",
-  "wordCount" : "507",
+  "articleBody": "Recently, I took a module called CS2102 in NUS, titled “Introduction to Database”. Previously, when I heard of databases, the first thing that comes to my mind is about spamming SELECT * FROM SOMEWHERE statements. Maybe, it is because previously I have made some applications using MongoDB (for the Raffles Hall Application) and MySQL (for my Orbital, CP2106, Independent Software Development Project). I knew that databases are very complex, there is caching, indexing, sharding, etc.\nHowever, after I did a project to create a database application purely using PL/pgSQL language, I realized learning SQL Procedural Language is already very complex, but they are very interesting. This PL/pgSQL is a turing complete language, meaning you can do any computation with it. Some basic syntax, for example:\n Declaring a new function and variables, yup just like in any procedural languages, you can create a procedure in PL/pgSQL  CREATE OR REPLACE FUNCTION sql_function(parameter INT) RETURNS BOOLEAN AS $$ DECLARE answer INT := 0; BEGIN RETURN QUERY SELECT TRUE ...; END; $$ LANGUAGE plpgsql; Not only that, you can even do recursive calls in PL/pgSQL !! I found this very amazing. But ok, admittedly they are very slow and I haven’t learnt much about optimization and how expensive joins operations are. e.g. This is a function that I implemented to find list of African countries that I can reach by crossing land borders recursively from Malaysia!!  WITH RECURSIVE border_traverse AS ( SELECT DISTINCT b.country1_iso2, b.country2_iso2, 1 AS crossing_count FROM borders b WHERE country1_iso2 = 'MY' UNION ALL SELECT DISTINCT b.country1_iso2, b.country2_iso2, crossing_count + 1 FROM border_traverse bt, borders b WHERE bt.country2_iso2 = b.country1_iso2 AND bt.crossing_count  10 ) SELECT DISTINCT co.name AS country_name, MIN(bt.crossing_count) AS crossing_count FROM border_traverse bt, countries co WHERE bt.country2_iso2 = co.iso2 AND co.continent = 'Africa' GROUP BY co.name ORDER BY crossing_count ; There are more interesting features from PL/pgSQL but those two are the highlights of PL/pgSQL that I want to emphasize and I want to remember should I saw this post again. In summary, I find coding using a mix of declarative and procedural languages to be interesting!\nNot only that, I never thought of the mathematical framework to really analyze database. When you design a table, from what I learn from H2 Computing about normal forms, they are just merely descriptions, they are not really formal mathematical statements. Learning about Functional Dependency (FD) really teaches me a lot of things. There are a lot of formal specifications about database, and I found the tool created by one of my CS2102 prof, Adiyoga, to be very cool. It is about Simple FD tools to find closure, proving, etc. I really appreciate him for making this tool as this is a very useful tool to aid my learning during CS2102!.\n        The UI on the “Simple” FD tool!    So here to my first reflection about CS2102, and in general I am really grateful that I have taken this with my friends. I did enjoy my time here and I really learnt a lot also!\nHave a nice day everyone!\n",
+  "wordCount" : "508",
   "inLanguage": "en",
   "image":"https://simonjulianl.github.io/images/cs2102.png","datePublished": "2021-11-05T00:00:00Z",
   "dateModified": "2021-11-05T00:00:00Z",
@@ -214,16 +214,10 @@
     </div>
     <div class="post-meta">November 5, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://t.me/simonjulianl/post/introToPsql.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <div class="details">Table of Contents</div>
-        </summary>
-        <div class="inner">
-        </div>
-    </details>
-</div>
-
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://simonjulianl.github.io/images/cs2102.png" alt="cs2102">
+        <p>Some snippets of code of PL/pgSQL</p>
+</figure>
   <div class="post-content"><p>Recently, I took a module called <strong>CS2102</strong> in NUS, titled &ldquo;Introduction to Database&rdquo;. Previously, when I heard of databases, the first thing that comes to my mind is about spamming <code>SELECT * FROM SOMEWHERE</code> statements. Maybe, it is because previously I have made some applications using MongoDB (for the Raffles Hall Application) and MySQL (for my Orbital, CP2106, Independent Software Development Project). I knew that databases are very complex, there is caching, indexing, sharding, etc.</p>
 <p>However, after I did a project to create a database application purely using <code>PL/pgSQL</code> language, I realized learning <strong>SQL Procedural Language</strong> is already very complex, but they are very interesting. This <code>PL/pgSQL</code> is a turing complete language, meaning you can do any computation with it. Some basic syntax, for example:</p>
 <ol>
@@ -241,7 +235,7 @@
 <span style="color:#960050;background-color:#1e0010">$$</span> <span style="color:#66d9ef">LANGUAGE</span> plpgsql; 
 
 </code></pre></div><ol start="2">
-<li>Not only that, you can even do recursive calls in <code>PL/pgSQL</code> !!, I found this very amazing. But ok, admittedly they are very slow and I haven&rsquo;t learnt about optimization and how expensive joins operations are, but I find coding using a mix of declarative and procedural languages to be interesting! e.g. This is a function that I implemented to find list of African countries that I can reach by crossing land borders recursively from Malaysia!!</li>
+<li>Not only that, you can even do recursive calls in <code>PL/pgSQL</code> !! I found this very amazing. But ok, admittedly they are very slow and I haven&rsquo;t learnt much about optimization and how expensive joins operations are. e.g. This is a function that I implemented to find list of African countries that I can reach by crossing land borders recursively from Malaysia!!</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="color:#66d9ef">WITH</span> <span style="color:#66d9ef">RECURSIVE</span> border_traverse <span style="color:#66d9ef">AS</span> ( 
         <span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">DISTINCT</span> b.country1_iso2, b.country2_iso2, <span style="color:#ae81ff">1</span> <span style="color:#66d9ef">AS</span> crossing_count
@@ -259,11 +253,21 @@
     <span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> co.name 
     <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> crossing_count
 ;
-</code></pre></div><p>There are more interesting features from <code>PL/pgSQL</code> but those two are the highlights of <code>PL/pgSQL</code> that I want to emphasize and I want to remember should I saw this post again.</p>
+</code></pre></div><p>There are more interesting features from <code>PL/pgSQL</code> but those two are the highlights of <code>PL/pgSQL</code> that I want to emphasize and I want to remember should I saw this post again. In summary, I find coding using a mix of declarative and procedural languages to be interesting!</p>
 <p>Not only that, I never thought of the mathematical framework to really analyze database. When you design a table, from what I learn from <strong>H2 Computing</strong> about normal forms, they are just merely descriptions, they are not really formal mathematical statements. Learning about <strong>Functional Dependency (FD)</strong> really teaches me a lot of things. There are a lot of formal specifications about database, and I found the tool created by one of my CS2102 prof, Adiyoga, to be very cool. It is about <a href="https://www.comp.nus.edu.sg/~adi-yoga/CS2102/FD/">Simple FD tools</a> to find closure, proving, etc. I really appreciate him for making this tool as this is a very useful tool to aid my learning during CS2102!.</p>
-<p><img loading="lazy" src="/images/cs2102adi.png" alt="cs2102tool"  />
-
-The UI on how to use the tool!</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img loading="lazy" src="/images/cs2102adi.png" alt="cs2102tool"  />
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>The UI on the &ldquo;Simple&rdquo; FD tool!</em></td>
+</tr>
+</tbody>
+</table>
 <p>So here to my first reflection about CS2102, and in general I am really grateful that I have taken this with my friends. I did enjoy my time here and I really learnt a lot also!</p>
 <p>Have a nice day everyone!</p>
 
