@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Simon Website</title>
-    <link>https://simonjulianl.github.io/</link>
-    <description>Recent content on Simon Website</description>
+    <title>NUS on Simon Website</title>
+    <link>https://simonjulianl.github.io/tags/nus/</link>
+    <description>Recent content in NUS on Simon Website</description>
     <image>
       <url>https://simonjulianl.github.io/</url>
       <link>https://simonjulianl.github.io/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/nus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS1101S Mastery Check 2 (Env Model, Memoization, and Streams) Questions</title>
       <link>https://simonjulianl.github.io/post/cs1101smasterycheck2/</link>
@@ -17,15 +17,6 @@
       
       <guid>https://simonjulianl.github.io/post/cs1101smasterycheck2/</guid>
       <description>List of questions that might help you to check your understanding for mastery check 2. Please use this to also test yourself and find out what you understand and what you don&amp;#39;t understand.</description>
-    </item>
-    
-    <item>
-      <title>Singapore GCE O-Level A-Math Resources</title>
-      <link>https://simonjulianl.github.io/post/amathtuition/</link>
-      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/post/amathtuition/</guid>
-      <description>Slides that I used for teaching Singapore GCE O-Level Additional Mathematics.</description>
     </item>
     
     <item>
@@ -56,34 +47,6 @@
     </item>
     
     <item>
-      <title>About me</title>
-      <link>https://simonjulianl.github.io/about/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/about/</guid>
-      <description>My life in a page !</description>
-    </item>
-    
-    <item>
-      <title>Past Experiences&#39; Summaries</title>
-      <link>https://simonjulianl.github.io/post/old-internship-explanation/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/post/old-internship-explanation/</guid>
-      <description>Since this website is first populated on 13/8/2021, there are many past experiences that I have failed to keep track of or I have failed to give the credits due. Hence, I would like to put the explanation about past projects and internships here! After this, each major project or internship worth highlighting would be explained on dedicated post!</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://simonjulianl.github.io/projects/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/projects/</guid>
-      <description>list of experiences, internships and projects with further elaboration than the resume that I did and am doing! </description>
-    </item>
-    
-    
-    <item>
       <title>Intro to Database and How It Changes My View on Database</title>
       <link>https://simonjulianl.github.io/post/introtopsql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,7 +54,6 @@
       <guid>https://simonjulianl.github.io/post/introtopsql/</guid>
       <description>How Taking the Intro to Database Module Changes My View of Database</description>
     </item>
-    
     
   </channel>
 </rss>
