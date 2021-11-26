@@ -9,7 +9,16 @@
       <link>https://simonjulianl.github.io/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/nus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonjulianl.github.io/tags/nus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Y2S1 Reflection</title>
+      <link>https://simonjulianl.github.io/post/yeartwosemonereflection/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonjulianl.github.io/post/yeartwosemonereflection/</guid>
+      <description>D </description>
+    </item>
+    
     <item>
       <title>Intro to Database and How It Changes My View on Database</title>
       <link>https://simonjulianl.github.io/post/introtopsql/</link>
@@ -53,15 +62,6 @@
       
       <guid>https://simonjulianl.github.io/post/cs1101sslides/</guid>
       <description>All the slides used for CS1101S 2021/22 Semester 1 Teaching.</description>
-    </item>
-    
-    <item>
-      <title>My Y2S1 Reflection</title>
-      <link>https://simonjulianl.github.io/post/yeartwosemonereflection/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://simonjulianl.github.io/post/yeartwosemonereflection/</guid>
-      <description>D </description>
     </item>
     
   </channel>
